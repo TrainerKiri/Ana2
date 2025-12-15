@@ -41,7 +41,7 @@ bookContent.addEventListener('scroll', () => {
   if (scrollPosition >= totalHeight - 50) {
     setTimeout(() => {
       changePage(bookContent, finalPage);
-    }, 500);
+    }, 1000);
   }
 });
 
